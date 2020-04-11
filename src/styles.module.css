@@ -1,9 +1,52 @@
-/* add css module styles here (optional) */
+.blinkingCursor {
+  -webkit-animation: blink step-end infinite var(--blinkSpeed);
+  -moz-animation: blink step-end infinite var(--blinkSpeed);
+  -ms-animation: blink step-end infinite var(--blinkSpeed);
+  -o-animation: blink step-end infinite var(--blinkSpeed);
+  animation: blink step-end infinite var(--blinkSpeed);
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: var(--color);
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
 }

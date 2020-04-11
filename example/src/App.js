@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'type-writer-text'
+import { TypeWriterText } from 'type-writer-text'
 import 'type-writer-text/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <h3 ><TypeWriterText text={"Happy Quarantine"} showCursor={false} /></h3>
 }
 
 export default App
