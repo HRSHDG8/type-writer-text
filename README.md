@@ -1,6 +1,6 @@
 # type-writer-text
 
-> lightweight spinner library
+> lightweight typewriter text animation library
 
 [![NPM](https://img.shields.io/npm/v/type-writer-text.svg)](https://www.npmjs.com/package/type-writer-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
